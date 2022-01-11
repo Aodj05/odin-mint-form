@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	background-color: #ECEEF1;
+}
+
+.main {
+}
+
+.navbar {
+	display: flex;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: end;
+}
+
+.sbt {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.sbt a {
+	text-decoration: none;
+}
+
+
+.btn button {
+	background-color: #0077c5;
+    margin-right: 6px;
+    border-radius: 4px;
+    padding: 0 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.btn img {
+    width: 33px;
+    height: 33px;
+    padding-right: 3px;
+}
+
+.img-txt {
+	vertical-align: middle;
+}
+
+.int {
+    margin-left: 56rem;
+    font-size: xxx-large;
+    font-stretch: extra-condensed;
+    font-weight: bold;
+    color: #8d9096;
+}
+
+.text-icons {
+	margin-left: 50rem;
+	margin-top: 7px;
+}
+
+.text-icons img {
+    width: 41px;
+    height: 31px;
+    vertical-align: middle;
+}
+
+.header {
+	text-align: center;
+}
+
+.form {
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    padding: 30px;
+    width: 380px;
+}
+
+.form label img{
+	width: 100px;
+	height: 100px;
+}
+
+.title {
+
+}
+
+.create {
+
+}
+
+.pp {
+
+}
+
+.cap {
+
+}
+
+.footer {
+
+}
+
+.links {
+
+}
+
+.ftxt {
+
+}

@@ -4,11 +4,63 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Odin Mint Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<div class="main">
-		<div class="form"></div>
-	</div>
+		<section class="navbar">
+			<div class="sbt">
+				<p class="q">Already have an Intuit account?</p>
+				<a href="#" class="forgot">I forgot my User ID or Password</a>
+			</div>
+			<div class="btn">
+				<button><span class="img-txt"><img src="img/lock.png"></span>Sign In</button>
+			</div>
+		</section>
+		<span class="int">Intuit</span>
+		<div class="text-icons">
+			<img src="img/Logo.png" alt="icon">mint
+			<img src="img/Logo.png" alt="icon">quickbooks
+			<img src="img/Logo.png" alt="icon">turbotax
+		</div>
+		<section class="form">
+			<header class="header">
+				<h1 class="hdr"> Create an Intuit account</h1>
+				<p class="one">One account for everything Intuit, including Mint. <a href="#">Learn more</a></p>
+				<form action="/login" method="post" class="titles">
+					<label>
+						Email
+						<input type="email" name="email">
+					</label>
+					<label>
+						Phone<span class="phone">(recommended)</span>
+						<input type="text" name="phone">
+						<span class="stndrd">Standard call, message, or data rates may apply.</span>
+					</label>
+					<label>
+						Password
+						<input type="password" name="password"><img src="img/unlock.png" alt="unlock">
+					</label>
+					<button class="create"><img src="img/lock.png" alt="lock">Create Account</button>
+					<p>By selecting Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#">Global Privacy Statement.</a></p>
+					<span class="update">Updated on January 10, 2022</span>
+					<span class="cap">Invisible reCAPTCHA by Google <a href="#" class="pp">Privacy Policy</a> and <a href="#">Terms of Use.</a></span>
+				</form>
+			</header>
+		</section>
+		<section class="footer">
+			<div class="links">
+				<a href="#">Legal</a>
+				<a href="#">Privacy</a>
+				<a href="#">Security</a>
+			</div>
+			<p class="ftxt">© 2022 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
 
+			Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+		</section>
+		<section class="ps">
+			<a href="#">Privacy Settings</a>
+		</section>
+	</div>
 </body>
 </html>
