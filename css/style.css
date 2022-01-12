@@ -67,18 +67,11 @@ span.update {
     color: #757575;
 }
 
-.navbar {
-	display: flex;
-    align-items: flex-start;
-    text-align: left;
-    justify-content: end;
-}
-
-.sbt {
-    display: flex;
-    flex-direction: column;
-    font-size: 12px;
-    line-height: 1.5;
+.links a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #505050;
+	padding: 8px;
 }
 
 .sbt a {
@@ -102,6 +95,30 @@ span.update {
     width: 33px;
     height: 33px;
     padding-right: 3px;
+}
+
+.ps a {
+	color: #0077C5;
+	text-decoration: none;
+}
+
+.ps div {
+	padding-top: 47px;
+    margin-left: 26px;
+}
+
+.navbar {
+	display: flex;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: end;
+}
+
+.sbt {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 .img-txt {
@@ -173,13 +190,24 @@ span.update {
 }
 
 .footer {
-
-}
-
-.links {
-
+    width: 100%;
+    text-align: center;
+    margin-top: 23px;
 }
 
 .ftxt {
+    font-size: 12px;
+    text-decoration: none;
+    color: #505050;
+    padding: 8px;
+    width: 37%;
+    margin-left: 37rem;
+}
 
+.ps {
+    background-color: white;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 105px;
+    height: 100px;
 }
